@@ -1,4 +1,4 @@
-# saaskly-com
+# Saaskly
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,132 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-saaskly-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://saaskly.com/
+Saaskly provides honest verdicts and rankings of business software across categories such as marketing, SEO, social media, content creation, CMS, cloud management, email, VoIP, domain names, VPS, GPU compute, VPN, password managers, antivirus, CRM, and accounting. It publishes editorial reviews, comparisons, pricing information, and an AI readiness score, helping businesses choose the right tools. Saaskly is a trading name of Next Generation ICT LTD, registered in England and Wales.
+
+**Areas:** SaaS · Business Software · Rankings · Reviews · AI
+
+## Saaskly on APIs.io
+
+Everything profiled for Saaskly is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/saaskly-com/](https://apis.io/providers/saaskly-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [Saaskly Articles API](https://apis.io/apis/saaskly-com/saaskly-com-articles-api/) — Comparison articles, buying guides, reviews
+- [Saaskly Categories API](https://apis.io/apis/saaskly-com/saaskly-com-categories-api/) — Software categories
+- [Saaskly Discovery API](https://apis.io/apis/saaskly-com/saaskly-com-discovery-api/) — Machine-readable indexes and manifests
+- [Saaskly Markdown mirrors API](https://apis.io/apis/saaskly-com/saaskly-com-markdown-mirrors-api/) — Every public HTML page as Markdown — append `.md` to the path
+- [Saaskly Pages API](https://apis.io/apis/saaskly-com/saaskly-com-pages-api/) — Policy and about pages
+- [Saaskly Providers API](https://apis.io/apis/saaskly-com/saaskly-com-providers-api/) — Reviewed software providers (one per vendor per category)
+- [Saaskly Readiness API](https://apis.io/apis/saaskly-com/saaskly-com-readiness-api/) — The Readiness API from Saaskly — 2 operation(s) for readiness.
+- [Saaskly Vendor portal API](https://apis.io/apis/saaskly-com/saaskly-com-vendor-portal-api/) — Vendor self-service (the only write surface)
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Saaskly Agentic Access](https://apis.io/agentic-access/saaskly-com/saaskly-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Article](https://apis.io/schemas/saaskly-com/saaskly-com-article/)
+- [CategorySlug](https://apis.io/schemas/saaskly-com/saaskly-com-category-slug/)
+- [Page](https://apis.io/schemas/saaskly-com/saaskly-com-page/)
+- [Provider](https://apis.io/schemas/saaskly-com/saaskly-com-provider/)
+- [ProviderBatch](https://apis.io/schemas/saaskly-com/saaskly-com-provider-batch/)
+- [ReadinessScan](https://apis.io/schemas/saaskly-com/saaskly-com-readiness-scan/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Saaskly Com Context](https://apis.io/jsonld/saaskly-com/saaskly-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Saaskly API Rules](https://apis.io/rules/saaskly-com/saaskly-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Saaskly Domain Security](https://apis.io/security/saaskly-com/saaskly-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Saaskly Plans Pricing](https://apis.io/plans/saaskly-com/saaskly-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://saaskly.com/)
+- [Documentation](https://saaskly.com/developers)
+- [Pricing](https://saaskly.com/pricing)
+- [Terms of service](https://saaskly.com/terms)
+- [Privacy policy](https://saaskly.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 49.1** — developing · rubric 0.27.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 55.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 16.0 |
+| Access clarity | 73.2 |
+
+**Agent readiness 49.5** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/saaskly-com/](https://apis.io/providers/saaskly-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Saaskly: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/saaskly-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
